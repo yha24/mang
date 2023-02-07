@@ -1,0 +1,46 @@
+**{
+    height: 100px;
+    width: 100px;
+}
+.container{
+    background-color: #528B8B;
+    width:800px;
+    height: 350px;
+    padding: auto;
+
+}
+button{
+    margin-left:5px;
+    color: red;
+}
+label{
+    margin-left:5px ;
+}
+input{
+    width: 30%;
+    margin-left:5px;
+    border-radius: 2px;
+
+}
+table{
+    width: 600px;
+    border-spacing: 0;
+    border-bottom:0;
+    border:2px solid black ;
+    border-bottom:none ;
+    border-right:none ;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#tbl tr{
+    height: 27px;
+    background-color: aqua;
+}
+#tbl tr th, #tbl tr td{
+    text-align: center;
+}
+#tbl tr th,#tbl tr{
+    border-top: none;
+    border-right: 2px solid black;
+    border-bottom:2px solid black ;
+}
