@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/array.js"></script>
+</head>
+<body>
+    <form style="background-color: cadetblue; width: 50%; width: 50%;">
+        Customer Name:
+        <input type="text" id="name">
+        <br>
+        <br>
+        ID:
+        <input type="text" id="id">
+        <br>
+        <br>
+        Product Name:
+        <input type="text" id="prdname">
+        <br>
+        <br>
+        Quantity:
+        <input type="text" id="qty">
+        <br>
+        <br>
+        Price:
+        <input type="text" id="price">
+        <br>
+        <br>
+        <input type="button" value="Save" onclick="save()">
+        <input type="button" value="Show" onclick="show()">
+        <input type="button" value="Reset" onclick="reset()">
+        <table class="table" style="background-color: rgb(7, 153, 97); color: rgb(14, 11, 8); width: 100%;">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Auto increment</th>
+                    <th>Customer Name</th>
+                    <th>ID</th>
+                    <th>Product Name:</th>
+                    <th> Price:</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+                <tbody id='tbl'></tbody>
+        </table>
+</form>
+</body>
+</html>
